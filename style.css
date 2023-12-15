@@ -1,0 +1,57 @@
+body{
+    background-color: lightskyblue;
+    overflow: hidden ;
+}
+
+#form{
+    background-color: aliceblue;
+    width: 30%;
+    border-radius: 10px;
+    margin: 120px auto;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgb(58, 11, 65);
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    border-radius: 6px;
+    border: 3px solid skyblue;
+    padding: 3px;
+}
+
+#btn{
+    width: 100%;
+    color: white;
+    background-color: lightsteelblue;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#spbtn{
+    border: 0;
+}
+
+#btn:hover{
+    background-color: darkblue;
+}
+
+@media screen and (max-width:750px){
+
+    #form {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:400px){
+
+    #form {
+        width:90%;
+    }
+
+}
